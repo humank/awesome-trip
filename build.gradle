@@ -52,7 +52,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo'
     testImplementation 'io.projectreactor:reactor-test'
-    testImplementation 'org.springframework.kafka:spring-kafka-test'
+    //testImplementation 'org.springframework.kafka:spring-kafka-test'
 
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.6.3'
