@@ -16,3 +16,17 @@ User Story mapping in used, you can use Big picture eventStorming process as alt
 ...
 
 More should be updated.
+
+
+## Implementation Stack
+
+* Java 16
+* Spring Boot 2.4.4
+* Cucumber Java 6.10.2
+* Junit 5
+
+Running cucumber test by 
+```
+
+gradle cucumber
+```
