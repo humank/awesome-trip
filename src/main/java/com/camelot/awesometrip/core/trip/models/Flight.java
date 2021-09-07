@@ -1,6 +1,6 @@
 package com.camelot.awesometrip.core.trip.models;
 
-import com.camelot.awesometrip.infrastrucutre.entrypoints.trip.FlySearchRequest;
+//import com.camelot.awesometrip.infrastrucutre.entrypoints.trip.FlySearchRequest;
 import com.camelot.dddcommons.baseclasses.AggregateRoot;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -20,7 +20,7 @@ public class Flight extends AggregateRoot<FlightId> {
     private String to;
     private String price;
 
-    private FlySearchRequest flySearchRequest;
+    //private FlySearchRequest flySearchRequest;
 
     public Flight(String flightNumber, String departTime, String from, String to, String price) {
         this.flightNumber = flightNumber;

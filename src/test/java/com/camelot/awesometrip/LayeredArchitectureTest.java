@@ -11,7 +11,8 @@ public class LayeredArchitectureTest {
     @ArchTest
     static final ArchRule layer_dependencies_are_respected = layeredArchitecture()
 
-            .layer("DomainModels").definedBy("com.camelot.awesometrip.core.trip.models..")
+            //.layer("DomainModels").definedBy("com.camelot.awesometrip.core.trip.models..")
+            .layer("DomainModels").definedBy("com.camelot.awesometrip.core..")
             .layer("DDDCommons").definedBy("com.camelot.dddcommons.baseclasses..")
             .layer("JavaRuntime").definedBy("java.lang..")
             //.whereLayer("DomainModels").mayOnlyAccessLayers("DomainModels,DDDCommons");
